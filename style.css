@@ -331,3 +331,82 @@ footer{
 .crystal-ball.ball-shake{
   animation: ball-shake 0.5s ease;
 }
+
+@media (max-width: 600px) {
+
+  .magic-ball-container {
+    padding-top: 20px;
+  }
+
+  .logo {
+    width: 400px;
+    max-width: 85vw;
+  }
+
+  .question-section {
+    width: 88vw;
+  }
+
+  .question-input {
+    height: 55px;
+    padding: 0 12px;
+    font-size: 16px;
+  }
+
+  .crystal-ball-container {
+    width: 270px;
+  }
+
+  .crystal-ball {
+    width: 260px;
+    height: 260px;
+  }
+
+  .consult-button {
+    width: 270px;
+    margin-top: -38px;
+  }
+
+  .answer-container {
+    width: 88vw;
+    margin-top: 18px;
+  }
+
+  #answer {
+    width: 68%;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* Keep decorations inside the phone viewport */
+  .big-star {
+    width: 45px;
+  }
+
+  .star {
+    width: 24px;
+  }
+
+  .purple-star,
+  .pink-star {
+    width: 24px;
+  }
+
+  .moon-1 {
+    width: 65px;
+  }
+
+  .moon-2 {
+    width: 48px;
+  }
+
+  .glow-dot {
+    width: 18px;
+  }
+}
