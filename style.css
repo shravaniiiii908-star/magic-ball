@@ -412,9 +412,6 @@ footer{
   }
 }
 
-/* Mobile Responsive Fix         */
-
-
 @media (max-width: 600px) {
 
   .magic-ball-container {
@@ -450,11 +447,14 @@ footer{
     margin-top: -38px;
   }
 
+  /* Responsive Answer Box */
+
   .answer-container {
     position: relative;
     width: 88vw;
     min-height: 130px;
     margin-top: 18px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -475,15 +475,20 @@ footer{
     top: auto;
     left: auto;
     transform: none;
+
     width: 68%;
     margin: 0 auto;
     padding: 25px 0;
+
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
+
     color: var(--text);
+
     overflow-wrap: break-word;
     word-wrap: break-word;
+  }
 
   footer {
     font-size: 10px;
@@ -491,7 +496,8 @@ footer{
     padding: 0 10px;
   }
 
-  /* Keep decorations inside the phone viewport */
+  /* Decorations */
+
   .big-star {
     width: 45px;
   }
@@ -517,4 +523,3 @@ footer{
     width: 18px;
   }
 }
-
