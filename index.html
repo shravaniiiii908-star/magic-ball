@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Magic-Ball</title>
+</head>
+<body>
+  <div class="magic-decorations">
+    <!--Decorative stars-->
+    <img src="assets/big-purple-star.png" class="decoration big-star" alt="">
+    <img src="assets/small-star.png" class="decoration star star-1" alt="">
+    <img src="assets/small-star.png" class="decoration star star-2" alt="">
+    <img src="assets/small-purple-star.png" class="decoration purple-star" alt="">
+    <img src="assets/small-pink-star.png" class="decoration pink-star" alt="">
+    <!--Moons-->
+    <img src="assets/moon-1.png" class="decoration moon moon-1" alt="">
+    <img src="assets/moon-1.png" class="decoration moon moon-2" alt="">
+    <!--glowing particles-->
+    <img src="assets/glow-dot1.png" class="decoration glow-dot dot-1" alt="">
+    <img src="assets/glow-dot2.png" class="decoration glow-dot dot-2" alt="">
+    <main class="magic-ball-container">
+      <!--Logo-->
+      <header class="header">
+        <img src="assets/magic-ball-logo1.png"
+            alt="Magic-Ball - Ask the unknown"
+            class="logo"
+        >
+      </header>
+      <section class="question-section">
+        <input 
+          type="text"
+          id="question-Input"
+          class="question-input"
+          placeholder="Ask me anything"
+          autocomplete="off"
+        >
+      </section>
+      <!--Crystal Ball-->
+      <section class="oracle">
+        <div class="crystal-ball-container">
+          <img 
+            src="assets/crystal-ball/ball-01.png"
+            alt="Magic Crystal Ball"
+            id="crystalBall"
+            class="crystal-ball"
+          >
+          <!--Button-->
+          <button id="consult-Button" class="consult-button">
+            <img src="assets/consult-button-01.png"
+                  alt="consult the ball">
+          </button>
+        </div>
+
+          <!--Answer-->
+          <div class="answer-container">
+            <img src="assets/answer-frame.png"
+            alt=""
+            class="answer-frame">
+              <p id="answer">
+                The answer lies within....
+              </p>
+          </div>
+      </section>
+      <!--Footer-->
+      <footer>
+        © THE MYSTERIOUS ORACLE • v1.0
+      </footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
