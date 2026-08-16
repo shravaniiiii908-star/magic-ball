@@ -332,6 +332,7 @@ footer{
   animation: ball-shake 0.5s ease;
 }
 
+
 @media (max-width: 600px) {
 
   .magic-ball-container {
@@ -410,3 +411,110 @@ footer{
     width: 18px;
   }
 }
+
+/* Mobile Responsive Fix         */
+
+
+@media (max-width: 600px) {
+
+  .magic-ball-container {
+    padding-top: 20px;
+  }
+
+  .logo {
+    width: 400px;
+    max-width: 85vw;
+  }
+
+  .question-section {
+    width: 88vw;
+  }
+
+  .question-input {
+    height: 55px;
+    padding: 0 12px;
+    font-size: 16px;
+  }
+
+  .crystal-ball-container {
+    width: 270px;
+  }
+
+  .crystal-ball {
+    width: 260px;
+    height: 260px;
+  }
+
+  .consult-button {
+    width: 270px;
+    margin-top: -38px;
+  }
+
+  .answer-container {
+    position: relative;
+    width: 88vw;
+    min-height: 130px;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .answer-frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    image-rendering: pixelated;
+    object-fit: fill;
+  }
+
+  #answer {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 68%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+  footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* Keep decorations inside the phone viewport */
+  .big-star {
+    width: 45px;
+  }
+
+  .star {
+    width: 24px;
+  }
+
+  .purple-star,
+  .pink-star {
+    width: 24px;
+  }
+
+  .moon-1 {
+    width: 65px;
+  }
+
+  .moon-2 {
+    width: 48px;
+  }
+
+  .glow-dot {
+    width: 18px;
+  }
+}
+
